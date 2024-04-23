@@ -5,11 +5,11 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div className='Navbar'>
+    <nav className='Navbar'>
       <h1 className='Logo'>GH</h1>
       <NavOption/> 
-      <SearchSignUp />    
-    </div>
+      <SearchSignUp />
+    </nav>
   )
 }
 

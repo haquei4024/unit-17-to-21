@@ -1,11 +1,12 @@
 import React from 'react'
 import { MagnifyingGlass } from 'phosphor-react'
+import './SearchSignUp.css'
 
 function SearchSignUp() {
   return (
-    <ul>
+    <ul className='MagSign'>
         <li>
-            <MagnifyingGlass size={32} />
+            <MagnifyingGlass size={25} />
         </li>
         <li>SIGN UP</li>
     </ul>
