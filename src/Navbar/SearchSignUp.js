@@ -4,7 +4,7 @@ import './SearchSignUp.css'
 
 function SearchSignUp() {
   return (
-    <ul className='MagSign'>
+    <ul className='SearchSign'>
         <li>
             <MagnifyingGlass size={25} />
         </li>
