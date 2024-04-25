@@ -3,6 +3,8 @@ import Navigation from './Navbar/Navigation'
 
 export default function App() {
   return (
-    <Navigation/>
+    <div>
+      <Navigation/>
+    </div>
   )
 }
