@@ -1,0 +1,65 @@
+.active{
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 10px #9d9fa3;
+    padding: 10px 300px;
+}
+
+nav .Title{
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+nav .Pages{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav .SignUps{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.ButtonSign{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    border-radius: 18px 18px 18px 0px;
+    border-color: #0e1111;
+}
+
+.ButtonSign:hover{
+    background-color: #0e1111;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    nav{
+        padding: 10px;
+    }
+
+    nav .Pages{
+        display: none;
+    }
+}

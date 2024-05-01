@@ -1,0 +1,10 @@
+.HamMenu{
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .HamMenu {
+        display: flex;
+        flex-direction: column;
+    }
+}
