@@ -4,8 +4,11 @@ import './Navbar.css'
 import { MagnifyingGlass, List} from 'phosphor-react';
 
 export const Navbar = () => {
+
     const [menuOpen, setMenuOpen] = useState(false)
-  return (
+  
+  
+    return (
     <nav>
         <div className='Desktop'>    
             <Link to="/" className='Title'>
@@ -30,11 +33,13 @@ export const Navbar = () => {
                 <li className='ButtonSign'> SIGN UP</li>
             </ul>
         </div>
-        <ul className={menuOpen ? "MobileMenuOpen" : "MobileMenuClose"}>
-            <li>Home</li>
-            <li>Stories</li>
-            <li>Calendar</li>
-        </ul>
+        
+            <ul className={menuOpen ? "MobileMenuOpen" : "MobileMenuClose"}>
+                <li>Home</li>
+                <li>Stories</li>
+                <li>Calendar</li>
+            </ul>
+        
     </nav>
   )
 }

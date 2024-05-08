@@ -1,0 +1,12 @@
+.Article{
+    font-size: 22px;
+    font-style: italic;
+    padding: 5px 0px;
+}
+
+.Author{
+    font-size: 15px;
+    font-weight: medium;
+    padding: 5px 0px;
+    color: #333a3a;
+}

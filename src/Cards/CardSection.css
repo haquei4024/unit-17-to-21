@@ -1,0 +1,16 @@
+.CardRow{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    list-style: none;
+}
+
+.CardRow li{
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .CardRow{
+        flex-direction: column;
+    }
+}

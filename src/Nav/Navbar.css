@@ -84,6 +84,10 @@ nav ul li{
         display: flex;
         flex-direction: column;
     }
+    
+    .MobileMenuClose{
+        display: none;
+    }
 
     .MobileMenuOpen{
         display: flex;
@@ -102,7 +106,4 @@ nav ul li{
         text-align: center;
     }
     
-    .MobileMenuClose{
-        display: none;
-    }
 }
