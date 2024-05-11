@@ -17,12 +17,12 @@ export const CardComponent = (props) => {
           alt={props.alt}
         />
         <CardContent>
-          <h2 className='Article'>
-            {props.title}
-          </h2>
-          <p className='Author'>
-            {props.author}
-          </p>
+            <h2 className='Article'>
+              {props.title}
+            </h2>
+            <p className='Author'>
+              {props.author}
+            </p>
         </CardContent>
       </CardActionArea>
     </Card>
